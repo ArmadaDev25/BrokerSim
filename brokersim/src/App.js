@@ -17,7 +17,7 @@ function App() {
     }
     // If no owned Stock is found, create a new Stock object and add it to the ownedStocks array
     if (stockOwned == false){
-      // Create a new object to put into the OwnedStocks Variable
+      // Create a new object to put into the OwnedStocks array
       const newStock = new Object({
         symbol: input.symbol,
         value: input.value,
