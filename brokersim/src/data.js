@@ -1,4 +1,5 @@
 export let ownedStocks = []
+
 export let avalibleStocks = [
     {
         symbol: "AAPL",
