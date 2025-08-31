@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 // Page Imports
 import Stocks from './pages/Stocks.js';
 import Homepage from './pages/Homepage.js';
+import StockOrder from './pages/StockOrder.js';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />}/>
         <Route path="/stocks" element={<Stocks />}/>
+        <Route path="/order/:symbol" element={<StockOrder />}/>
         
       </Routes>
       
