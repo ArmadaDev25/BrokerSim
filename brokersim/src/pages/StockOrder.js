@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { avalibleStocks, ownedStocks} from "../data";
 import { useEffect, useState } from "react";
+import Nav from "../components/Nav";
 
 function StockOrder(){
     const params = useParams()
@@ -51,6 +52,7 @@ function StockOrder(){
     function loadingPage(){
         return(
         <div>
+            <Nav/>
             <h1>
                 Order Ticket
             </h1>
@@ -64,6 +66,7 @@ function StockOrder(){
     function loaded() {
         return(
         <div>
+            <Nav/>
             <h1>
                 Order Ticket
             </h1>

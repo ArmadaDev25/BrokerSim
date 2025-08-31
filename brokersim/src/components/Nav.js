@@ -5,6 +5,7 @@ function Nav(){
             <h1>
                 BrokerSim
             </h1>
+            
         </div>
 
     )
