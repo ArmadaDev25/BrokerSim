@@ -12,15 +12,15 @@ https://broker-sim.vercel.app
 Alternate Steps
 1. Access the live site using the link above
 ## File Structure
-/src
-- this has all of the source files
-/src/App.js
+#### /src
+- this has all of the source files <br>
+#### /src/App.js
 - this is the main componenet within the application <br>
-/src/data.js <br>
+#### /src/data.js <br>
 - holds the data withing the application <br>
-/src/pages <br>
+#### /src/pages <br>
 - folder that holds the different pages within the app <br>
-/src/components <br>
+#### /src/components <br>
 - folder that holds the various components used on the pages <br>
-/src/App.css <br>
+#### /src/App.css <br>
 - file that holds all of the CSS rules for the web application <br>
