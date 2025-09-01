@@ -5,7 +5,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 // Page Imports
 import Stocks from './pages/Stocks.js';
-import Homepage from './pages/Homepage.js';
+import Homepage from './pages/Home.js';
 import StockOrder from './pages/StockOrder.js';
 
 
