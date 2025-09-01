@@ -8,8 +8,8 @@ https://broker-sim.vercel.app
 2. Open up a command prompt and type cd brokersim this will put you in the correct directory
 3. Run npm install to install the dependencies
 4. Run npm start to start the development server
-5. Go to localhost:3000 in your web browser if a browser window does not automatically open up
-Alternate Steps
+5. Go to localhost:3000 in your web browser if a browser window does not automatically open up <br>
+#### Alternate Steps
 1. Access the live site using the link above
 ## File Structure
 #### /src
