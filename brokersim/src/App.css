@@ -13,15 +13,39 @@
   margin: 0px;
   padding: 0px;
 }
+.heroSiteTitle{
+  color: white;
+  padding-top: 15px;
+  margin: 0;
+  font-size: 140px;
+
+}
 h1{
   color: white;
   padding-top: 15px;
   margin: 0;
-}
-.button{
-  color: rgb(255, 0, 0);
-  border-radius: 5px;
-  margin: 30px;
-  padding: 80px;
 
+}
+
+
+button{
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.heroMain{
+  padding: 70px;
+}
+.indexContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
 }
