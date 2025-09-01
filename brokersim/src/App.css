@@ -8,10 +8,17 @@
   margin: 0px;
   padding: 0px;
 }
+
 .SiteHeader{
   background-color: black;
   margin: 0px;
   padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.linksContainer{
+  display: flex;
+  align-items: flex-end;
 }
 .heroSiteTitle{
   color: white;

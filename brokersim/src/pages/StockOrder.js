@@ -83,7 +83,7 @@ function StockOrder(){
                 {stock.symbol}
             </h2>
             <button onClick={()=>addStock(stock)}>Place Order</button>
-            <h3>My Owned Stocks</h3>
+            <h3 class="h3-mid">My Owned Stocks</h3>
                         {/*Map through that displays the users bought stocks*/}
                         {ownedStocks.map((sIndex, index)=>{
                             const {symbol, value, owned}= sIndex

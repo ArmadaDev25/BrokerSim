@@ -13,15 +13,14 @@ export let avalibleStocks = [
 export let stockIndexes = [
     {
         name: "Dow Jones",
-        value: 224.96
+        value: 45544.88	
+    },{
+        name: "S & P 500",
+        value: 6460.26
     },
     {
-        name: "Dow Jones",
-        value: 224.96
-    },
-    {
-        name: "Dow Jones",
-        value: 224.96
+        name: "NASDAQ Composite Index",
+        value: 21455.55	
     }
  
 ]
