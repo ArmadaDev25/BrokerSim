@@ -9,6 +9,11 @@ function StockOrder(){
 
     // This useState will contain the information for the stock the user is currently trying to buy
     const [stock, setStock] = useState(null)
+    // This uses
+    const [key, setKey] = useState(0);
+    const changeKey = () => {
+        setKey(prevKey => prevKey + 1);
+    };
 
     // This function will get the stock information from the avalibleStocks Array
     function getStock(){
@@ -18,7 +23,6 @@ function StockOrder(){
         setStock(currentStock)
     }
     console.log(stock)
-
     function addStock(input){
     let stockOwned = false;
     for (let x = 0; x < ownedStocks.length; x++){
@@ -42,7 +46,12 @@ function StockOrder(){
     }
     // Debug that shows that the stock has been added to the OwnedStockArray
     console.log("Owned After")
-    console.log(ownedStocks)
+    console.log(ownedStocks
+        
+    )
+    changeKey();
+    
+
   }
 
     useEffect(() => {
@@ -51,7 +60,7 @@ function StockOrder(){
     // Page that loads in first while the Stock variable is null
     function loadingPage(){
         return(
-        <div>
+        <div key={key}>
             <Nav/>
             <h1>
                 Order Ticket
@@ -65,7 +74,7 @@ function StockOrder(){
     // Page that loads after Stock has been populated
     function loaded() {
         return(
-        <div>
+        <div key={key}>
             <Nav/>
             <h1>
                 Order Ticket
@@ -74,6 +83,19 @@ function StockOrder(){
                 {stock.symbol}
             </h2>
             <button onClick={()=>addStock(stock)}>Place Order</button>
+            <h3>My Owned Stocks</h3>
+                        {/*Map through that displays the users bought stocks*/}
+                        {ownedStocks.map((sIndex, index)=>{
+                            const {symbol, value, owned}= sIndex
+                                return(
+                                    <div key={symbol} class="ownedStockInfo">
+                                        <h3 key={symbol}>{symbol}</h3>
+                                        <h3 key={value}>{value}</h3>
+                                        <h3 key={owned}>{owned}</h3>
+
+                                    </div>
+                            )          
+                        })}
         </div>
         )
     }
