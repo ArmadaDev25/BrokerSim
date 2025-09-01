@@ -15,12 +15,12 @@ Alternate Steps
 /src
 - this has all of the source files
 /src/App.js
-- this is the main componenet within the application
-/src/data.js
-- holds the data withing the application
-/src/pages
-- folder that holds the different pages within the app
-/src/components
-- folder that holds the various components used on the pages
-/src/App.css
-- file that holds all of the CSS rules for the web application
+- this is the main componenet within the application <br>
+/src/data.js <br>
+- holds the data withing the application <br>
+/src/pages <br>
+- folder that holds the different pages within the app <br>
+/src/components <br>
+- folder that holds the various components used on the pages <br>
+/src/App.css <br>
+- file that holds all of the CSS rules for the web application <br>
